@@ -656,6 +656,11 @@ $(function() {
             $('.celetext').append('Memperingati Hari Infanteri');
             $('.celedate').append('15 Desember' + years);
             $(this).show();
+            
+        } else if (currentDate == '16 Desember') {
+            $('.celetext').append('Memperingati Hari Harian :)');
+            $('.celedate').append('16 Desember' + years);
+            $(this).show();
 
         } else if (currentDate == '19 Desember') {
             $('.celetext').append('Memperingati Hari Bela Negara');
